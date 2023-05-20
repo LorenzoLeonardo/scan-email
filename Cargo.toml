@@ -1,0 +1,9 @@
+[package]
+name = "scan-email"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sane-scan = { git = "https://github.com/LorenzoLeonardo/sane-scan", branch = "ImproveGetDeices" }
